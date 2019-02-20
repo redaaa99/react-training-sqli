@@ -16,10 +16,7 @@ class PriceCard extends Component {
               <li>{element}</li>
             ))}
           </ul>
-          <button
-            type="button"
-            className="btn btn-lg btn-block btn-outline-primary"
-          >
+          <button type="button" className={this.props.infos.buttonStyle}>
             {this.props.infos.buttonText}
           </button>
         </div>
