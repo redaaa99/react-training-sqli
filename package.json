@@ -8,7 +8,9 @@
     "react-scripts": "2.1.5"
   },
   "husky": {
-    "hooks": { "pre-commit": "pretty-quick --staged" },
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
